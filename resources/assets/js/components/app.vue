@@ -7,8 +7,7 @@
                 <the-breadcrumb/>
             </div>
             <div class="wrapper wrapper-content animated fadeIn">
-                <the-body/>
-                <!-- <router-view/> -->
+                <router-view></router-view>
             </div>
             <the-footer/>
         </div>
@@ -21,11 +20,10 @@
 import TheHeader from '@/layout/TheHeader'
 import TheBreadcrumb from '@/layout/TheBreadcrumb'
 import TheMenu from '@/layout/TheMenu'
-import TheBody from '@/layout/TheBody'
 import TheFooter from '@/layout/TheFooter'
 
 export default {
     name: 'app',
-    components: { TheHeader, TheBreadcrumb, TheMenu, TheBody, TheFooter },
+    components: { TheHeader, TheBreadcrumb, TheMenu, TheFooter },
 }
 </script>
